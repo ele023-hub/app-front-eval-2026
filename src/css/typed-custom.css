@@ -1,0 +1,4 @@
+ /* ======= TYPED ======= */
+ .typed-item {
+    @apply max-w-2xl mx-auto py-7
+ }

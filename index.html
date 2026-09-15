@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eafc-eval-2026</title>
+
+    <!-- Polices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <!-- ====== CSS Swiper Slider ====== -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
+    <!-- ====== CDN ScrollReveal (js) ====== -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!-- ====== CSS SweetAlert2 ====== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+  </head>
+
+
+  <body>
+    <header>
+      <!-- Navigation -->
+      <nav class="navbar">
+        <h1><a href="#" class="navbar-home">Elodie Delfosse - Dev Frontend</a></h1>
+        <ul class="menu-links">
+          <li><a href="#section1">Slider</a></li>
+          <li><a href="#section2">Révélation</a></li>
+          <li><a href="#section3">Typed</a></li>
+          <li><a href="#section4">Chart</a></li>
+          <li><a href="#section5">Alerts</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+
+    <main>
+      <!-- Swiper.js Slider -->
+      <section id="section1" class="section section-bg-zinc">
+
+        <!-- SLIDER MAIN CONTAINER -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- SLIDES -->
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+              <img src="src/img/swiper-slider1.jpg" alt="Slide 1">
+
+              <!-- TITLE BOX -->
+              <div class="swiper-slider-title-box">
+                <div class="swiper-slider-bg-banner">
+                  <!-- Bandeau noir -->
+                </div>
+                <div class="swiper-slider-titles">
+                  <h2 class="secondary-title">Section 1 • Swiper.JS Slider</h2>
+                  <h3 class="swiper-slider-main-title">Bienvenue sur mon portfolio</h3>
+                  <p class="text-zinc-400">Slide 1 – Description de ton projet ou de ta spécialité.</p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+              <img src="src/img/swiper-slider2.jpg" alt="Slide 2">
+
+              <!-- TITLE BOX -->
+              <div class="swiper-slider-title-box">
+                <div class="swiper-slider-bg-banner">
+                  <!-- Bandeau noir -->
+                </div>
+                <div class="swiper-slider-titles">
+                  <h2 class="secondary-title">Section 1 • Swiper.JS Slider</h2>
+                  <h3 class="swiper-slider-main-title">Mes compétenteces</h3>
+                  <p class="text-zinc-400">Slide 2 – Présente une compétence ou un projet fictif.</p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+              <img src="src/img/swiper-slider3.jpg" alt="Slide 3">
+
+              <!-- TITLE BOX -->
+              <div class="swiper-slider-title-box">
+                <div class="swiper-slider-bg-banner">
+                  <!-- Bandeau noir -->
+                </div>
+                <div class="swiper-slider-titles">
+                  <h2 class="secondary-title">Section 1 • Swiper.JS Slider</h2>
+                  <h3 class="swiper-slider-main-title">Contacte-moi</h3>
+                  <p class="text-zinc-400">Slide 3 – Appel à l'action, lien fictif, ect.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        
+      </section>
+
+      <!-- ScrollReveal.js -->
+      <section id="section2" class="section section-padding section-bg-grey">
+        <h2 class="main-title">Section 2 · <span class="text-blue-400">ScrollReveal.js</span></h2>
+        <p>Mes projets apparaissent à mesure que tu scrolles. Chaque card a un effet différent</p>
+
+        <!-- SCROLLREVEAL MAIN CONTAINER -->
+        <div class="scrollreveal-container">
+
+          <!-- Card 1 -->
+          <div id="card1" class="scrollreveal-card">
+            <div class="scrollreveal-emoji">😁</div>
+            <h3 class="scrollreveal-card-title">Projet fictif 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor, provident, labore est, laudantium.</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div id="card2" class="scrollreveal-card">
+            <div class="scrollreveal-emoji">👻</div>
+            <h3 class="scrollreveal-card-title">Projet fictif 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor, provident, labore est, laudantium.</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div id="card3" class="scrollreveal-card">
+            <div class="scrollreveal-emoji">🙀</div>
+            <h3 class="scrollreveal-card-title">Projet fictif 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor, provident, labore est, laudantium.</p>
+          </div>
+
+          <!-- Card 4 -->
+          <div id="card4" class="scrollreveal-card">
+            <div class="scrollreveal-emoji">👀</div>
+            <h3 class="scrollreveal-card-title">Projet fictif 4</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor, provident, labore est, laudantium.</p>
+          </div>
+
+          <!-- Card 5 -->
+          <div id="card5" class="scrollreveal-card">
+            <div class="scrollreveal-emoji">🌸</div>
+            <h3 class="scrollreveal-card-title">Projet fictif 5</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor, provident, labore est, laudantium.</p>
+          </div>
+
+          <!-- Card 6 -->
+          <div id="card6" class="scrollreveal-card">
+            <div class="scrollreveal-emoji">🍹</div>
+            <h3 class="scrollreveal-card-title">Projet fictif 6</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolor, provident, labore est, laudantium.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Typed.js -->
+      <section id="section3" class="section section-padding section-bg-zinc flex flex-col text-center">
+        <div class="my-auto">
+          <h2 class="secondary-title">Section 3 • Typed.js</h2>
+          <h3 class="main-title typed-item">Je suis <span id="element" class="text-yellow-400"></span></h3>
+          <p class="max-w-md mx-auto">Passionné·e par le web, j'aime créer des expériences fluides et mémorables. Voici quelques mots qui me définissent – ils s'enchaînent tout seuls, regarde.</p>
+        </div>
+      </section>
+
+      <!-- Chart.js -->
+      <section id="section4" class="section section-padding section-bg-grey">
+        <h2 class="main-title">Section 4 · <span class="text-green-400">Chart.js</span></h2>
+        <p>Mes compétences techniques en un coup d'œil.</p>
+
+        <!-- Charts Container -->
+         <div class="charts-warper">
+          <div class="chart-container">
+            <h3 class="chart-title"> Compétences techniques</h3>
+            <canvas id="barChart"></canvas>
+          </div>
+          <div class="chart-container">
+            <h3 class="chart-title">Répartition du temps projet</h3>
+            <canvas id="donutChart"></canvas>
+          </div>
+         </div>
+      </section>
+
+      <!-- SweetAlert2 -->
+      <section id="section5" class="section section-padding section-bg-zinc flex flex-col text-center">
+        <div class="my-auto">
+          <h2 class="main-title">Section 5 · <span class="text-pink-400">SweetAlert2</span></h2>
+          <p class="max-w-3xl mx-auto">Clique sur chaque bouton pour déclencher une alerte différente. Adapte les textes, icônes et couleurs selon ton portfolio fictif.</p>
+
+          <!-- ALERTS CONTAINER -->
+           <div class="sweetalert-container">
+            <!-- Alert 1 -->
+            <button id="sent" class="sweetalert-btn sweetalert-btn-sent">
+              <span class="sweetalert-emoji">✅ </span>
+              Message envoyé
+            </button>
+
+            <!-- Alert 2 -->
+            <button id="invalid" class="sweetalert-btn sweetalert-btn-invalid">
+              <span class="sweetalert-emoji">❌ </span>
+              Formulaire invalide
+            </button>
+
+            <!-- Alert 3 -->
+            <button id="deleted" class="sweetalert-btn sweetalert-btn-deleted">
+              <span class="sweetalert-emoji">⚠️ </span>
+              Supprimer un projet
+            </button>
+           </div>
+           <div id="delete-message" class="text-red-400 hidden"><span>🗑️</span> Projet supprimé (simulation).</div>
+        </div>
+          
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div> &copy; EAFC 2025-26 • Approche Développement Frontend</div>
+    </footer>
+
+
+<!-- =================== TOUT LE JS ===================== -->
+
+    <!-- Chargement main.js -->
+    <script type="module" src="/src/js/main.js"></script>
+
+    <!-- ====== CDN Swiper Slider ====== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- ====== CDN Typed.js ====== -->
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+    <!-- ====== CDN Chart.js + Script ====== -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+    <script>
+      
+    </script>
+
+    <!-- ====== CDN SweetAlert2 ====== -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
+    
+
+  </body>
+</html>

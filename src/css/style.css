@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@import "./swiper-custom.css";
+@import "./scrollreveal-custom.css";
+@import "./typed-custom.css";
+@import "./chart-custom.css";
+@import "./sweetalert-custom.css";
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+@layer components {
+  /* ======= NAVBAR ======= */
+  .navbar {
+    @apply bg-zinc-900 py-2 px-32 text-zinc-50 border-b border-zinc-700 flex justify-between items-center fixed top-0 right-0 left-0 z-10;
+    .navbar-home {
+      @apply text-xl font-semibold;
+    }
+    .menu-links {
+      @apply flex gap-2;
+    }
+    li {
+      @apply px-6 py-4 rounded-lg;
+    }
+    li:hover {
+      @apply bg-zinc-600;
+    }
+    li:active {
+      @apply bg-zinc-700;
+    }
+    li:focus {
+      @apply bg-zinc-700;
+    }
+  }
+
+  /* ======= SECTIONS ======= */
+  .section {
+    @apply min-h-screen text-zinc-400;
+    &.section-padding {
+      @apply px-32 py-20;
+    }
+    &.section-bg-grey {
+      @apply bg-gray-800;
+    }
+    &.section-bg-zinc {
+      @apply bg-zinc-900;
+    }
+    .main-title {
+      @apply text-5xl font-semibold text-zinc-100 pb-4;
+    }
+    .secondary-title {
+      @apply text-xs uppercase text-yellow-400 tracking-wider;
+    }
+  }
+
+  /* ======= FOOTER ======= */
+  .footer {
+    @apply bg-zinc-900 py-6 px-32 text-zinc-500 text-center border-t border-zinc-700;
+  }
+
+}
+
+
+

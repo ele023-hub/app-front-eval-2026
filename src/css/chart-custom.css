@@ -1,0 +1,13 @@
+ /* ======= CHART ======= */
+.charts-warper {
+    @apply flex justify-center gap-10 items-start;
+    .chart-container {
+        @apply w-128 bg-gray-700 border border-gray-600 rounded-2xl p-6 mt-12;
+        &.chart-container:first-of-type {
+            @apply self-center h-96;
+        }
+    }
+}
+ .chart-title {
+    @apply text-lg text-zinc-100 font-semibold mb-4;
+ }

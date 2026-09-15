@@ -1,0 +1,28 @@
+ /* ======= SWIPER SLIDER ======= */
+
+  /* Slider est full width */
+  .swiper {
+    @apply w-full h-screen;
+    /* Slide pour le positionnement du banner */
+    .swiper-slide {
+      @apply relative;
+    }
+    /* Images full slide */
+    .swiper-slide img {
+      @apply w-full h-full object-cover;
+    }
+  }
+
+  /* Boite du banner */
+  .swiper-slider-title-box {
+    @apply absolute bottom-0 z-9 w-full;
+    .swiper-slider-bg-banner {
+      @apply absolute bottom-0 z-10 bg-zinc-900 opacity-75 py-21 w-full;
+    }
+    .swiper-slider-titles {
+      @apply absolute bottom-4 z-11 px-32 py-4 w-full ;
+      .swiper-slider-main-title {
+        @apply text-4xl font-semibold text-zinc-50 py-2;
+      } 
+    }
+  }

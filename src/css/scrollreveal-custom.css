@@ -1,0 +1,16 @@
+ /* ======= SWIPER SLIDER ======= */
+ .scrollreveal-container {
+    @apply mt-12 grid grid-cols-3 gap-8;
+    .scrollreveal-card {
+        @apply bg-gray-700 border border-gray-600 rounded-2xl p-6 flex flex-col gap-2 text-zinc-300 transition-transform duration-200;
+        .scrollreveal-emoji {
+            @apply text-4xl;
+        }
+        .scrollreveal-card-title {
+            @apply text-xl text-zinc-100 font-semibold;
+        }
+    }
+    .scrollreveal-card:hover {
+        @apply border-2 border-blue-400
+    }
+ }

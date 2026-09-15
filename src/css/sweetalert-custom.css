@@ -1,0 +1,19 @@
+ /* ======= SWEETALERT2 ======= */
+.sweetalert-container {
+    @apply flex justify-center gap-6 my-12 text-zinc-100 font-semibold;
+    .sweetalert-btn {
+        @apply w-60 py-6 rounded-2xl opacity-85 transition-transform duration-200;
+        &.sweetalert-btn-sent {
+            @apply bg-emerald-600;
+        }
+        &.sweetalert-btn-invalid {
+            @apply bg-red-600;
+        }
+        &.sweetalert-btn-deleted {
+            @apply bg-orange-400;
+        }
+    }
+    .sweetalert-btn:hover {
+        @apply opacity-100 -translate-y-1.5;
+    }
+}
